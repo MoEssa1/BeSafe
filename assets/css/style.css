@@ -1,0 +1,21 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.logo {
+    width: 180px;
+    height: 180px;
+    margin-top: -20px;
+    padding: 0;
+}
+
+#nav-color  {
+    background-color: #e0e0e0;
+}
+
+.body-color {
+    max-width: max-content;
+    height: 100px;
+    color: #e0e0e0;
+}
