@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-#nav-color  {
+#nav-color {
     background-color: #e0e0e0;
 }
 
@@ -27,3 +27,44 @@
     color: #e0e0e0;
 }
 
+
+/*---------------------------------------------------Footer */
+
+footer{
+    background-color: #08415C;
+    height: 80px;
+    padding: 20px;
+    
+}
+
+.footer-color a{
+    text-decoration: none;
+    color: #e0e0e0;
+    padding-right: 15px;
+    font-size: larger;
+    
+}
+
+.footer-color a:hover {
+    color: #D30C7B;
+}
+
+/*---------------------------------------------------Footer icons*/
+
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    /* Remove bullet points */
+    list-style: none;
+   }
+
+  
+i {
+    font-size: 30px;
+    color: #e0e0e0;
+}
+
+
+i:hover {
+    color: #D30C7B;
+}
