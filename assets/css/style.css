@@ -33,6 +33,9 @@ footer{
 .footer-color a{
     text-decoration: none;
     color: #e0e0e0;
+    padding-right: 15px;
+    font-size: larger;
+    
 }
 
 .footer-color a:hover {
