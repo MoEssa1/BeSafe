@@ -68,3 +68,22 @@ i {
 i:hover {
     color: #D30C7B;
 }
+
+
+/*---------------------------------------------------Body*/
+body {
+    background-color: #DCD6F7;
+}
+
+.display{
+    display: block;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+  .content{
+    height: 2000px;
+  }
