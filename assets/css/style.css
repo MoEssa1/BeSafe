@@ -1,12 +1,11 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
+
+
+/* -------NavBar----------- */
 .logo {
-    width: 180px;
-    height: 180px;
-    margin-top: -20px;
+    width: 130px;
+    height: 80px;
+    margin: 0px;
     padding: 0;
 }
 
@@ -14,8 +13,17 @@
     background-color: #e0e0e0;
 }
 
+.searchbutton-color {
+    color: #e0e0e0;
+    background-color: #D30C7B;
+    border-color: #08415c;
+}
+
+
+/* -------Body----------- */
 .body-color {
     max-width: max-content;
     height: 100px;
     color: #e0e0e0;
 }
+
