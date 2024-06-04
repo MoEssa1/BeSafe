@@ -19,3 +19,51 @@
     height: 100px;
     color: #e0e0e0;
 }
+
+
+/*---------------------------------------------------Footer */
+footer {
+    position:absolute;
+    max-width: max-content;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+    
+
+  .footer links{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 30px;
+     }
+
+ 
+
+/*---------------------------------------------------Footer icons*/
+.footer socials {
+   
+    display: flex;
+    align-items: flex-end;
+  }
+
+#social-networks {
+    display: flex;
+    align-items: center;
+     padding: 10px;
+    /* Remove bullet points */
+    list-style: none; 
+  }
+
+  #social-networks li {
+    margin-right: 20px; 
+  }
+
+  i {
+    font-size: 30px; 
+  }
+
+
+  i:hover {
+    color: #D30C7B; 
+  }
