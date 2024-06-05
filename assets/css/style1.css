@@ -32,7 +32,7 @@
   }
 
 p {
-    font-family: 'pt sarif';
+    font-family: "PT+Serif";
     font-weight: 200;
 }
   /* -------NavBar----------- */
@@ -98,7 +98,24 @@ li i:hover {
 
    /* -----body------- */
 
-   .body {
+   body {`
     height: 800px;
     background-color: #dcd6f7;
    }
+
+/*---------------------------------------------------About US */
+   .form-control{
+    margin-top: 5px;
+    font-family: "PT+Serif";
+      
+   }
+
+   .btnF{
+   margin: 10px;
+    background-color: #D30C7B;
+   }
+
+   #map{
+    margin-top: 50px;
+   }
+  
