@@ -20,6 +20,7 @@
   
   h1 {
     font-family: 'ultra';
+    color: #08415C;
   }
   
   
@@ -29,11 +30,13 @@
     font-family: 'ultra';
     font-weight: 300;
     font-size: large;
+    color: #08415C;
   }
 
 p {
     font-family: "PT+Serif";
-    font-weight: 200;
+    font-weight: 400;
+    color: #08415C;
 }
   /* -------NavBar----------- */
 .logo {
@@ -44,7 +47,7 @@ p {
 }
 
 #nav-color {
-    background-color: #e0e0e0;
+    background-color:#e0e0e0;
 }
 
 .button-color {
@@ -98,9 +101,9 @@ li i:hover {
 
    /* -----body------- */
 
-   body {`
+   body {
     height: 800px;
-    background-color: #dcd6f7;
+    background-color: #e0e0e0;
    }
 
 /*---------------------------------------------------About US */
@@ -117,5 +120,9 @@ li i:hover {
 
    #map{
     margin-top: 50px;
+   }
+
+   .icons{
+    color: #D30C7B;
    }
   
