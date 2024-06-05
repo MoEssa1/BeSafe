@@ -1,0 +1,75 @@
+/*Asterisk wildcard selector to override default styles added by the browser*/
+*,
+*::before, 
+*::after{
+    max-width: 1400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+    margin-top: 120px;
+    position: absolute;
+  }
+
+  /* -------NavBar----------- */
+.logo {
+    width: 130px;
+    height: 80px;
+    margin: 0px;
+    padding: 0;
+}
+
+#nav-color {
+    background-color: #e0e0e0;
+}
+
+.button-color {
+    color: #e0e0e0;
+    background-color: #D30C7B;
+    border-color: #08415c;
+}
+
+
+/* ------------Video homepage---------- */
+.ratio {
+    margin-bottom: 40px;
+}
+
+/*---------------------------------------------------Footer */
+
+footer{
+    background-color: #08415C;
+    height: 80px; 
+}
+
+.footer-color a{
+    text-decoration: none;
+    color: #e0e0e0;
+    padding-right: 15px;
+}
+
+.footer-color a:hover {
+    color: #D30C7B;
+}
+
+i {
+    font-size: 30px;
+    color: #e0e0e0;
+    padding: 5px;
+}
+
+
+li i:hover {
+    color: #D30C7B;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+    /* Removes bullet points */
+    list-style: none;
+    padding: 0;
+   }
