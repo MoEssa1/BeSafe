@@ -2,7 +2,9 @@
 *,
 *::before, 
 *::after{
-    padding: 0;
+    /* I changed the max with from 100% to desktop size */
+    max-width: 1200px;
+    padding: 10px;
     margin: 0;
     box-sizing: border-box;
   }
@@ -42,7 +44,7 @@ nav {
 footer{
     background-color: #08415C;
     height: 80px;
-    padding: 20px;
+    /* padding: 20px; */
     
 }
 
@@ -50,8 +52,9 @@ footer{
     text-decoration: none;
     color: #e0e0e0;
     padding-right: 15px;
-    font-size: larger;
-    margin-bottom: 20px;
+    /* font-size: larger; */
+    /* margin-bottom: 20px; */
+    
     
 }
 
@@ -62,23 +65,25 @@ footer{
 .fixed-bottom{
     max-height: 30%;
     width: 100%;
-    position: relative;
+    position: fixed;
+    text-align: center;
 }
 
 /*---------------------------------------------------Footer icons*/
 
 #social-networks {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* Remove bullet points */
     list-style: none;
-    margin-bottom: 20px;
+    margin: 20px;
    }
 
   
 i {
     font-size: 30px;
     color: #e0e0e0;
+    padding: 5px;
 }
 
 
@@ -88,12 +93,12 @@ i:hover {
 
 
 /*---------------------------------------------------Body*/
-body {
+/* body {
     min-height: 10%;
     background-color: #f7e2d6;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     overflow: auto;
-}
+} */
 
 
 
@@ -101,4 +106,7 @@ body {
     margin-top: 125px;
   }
 
-/*---------------------------------------------------Carousel*/
+
+
+/*---------------------------------------------------Cards*/
+
