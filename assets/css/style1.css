@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap');
+
 /*Asterisk wildcard selector to override default styles added by the browser*/
 *,
 *::before, 
@@ -14,6 +16,25 @@
     position: absolute;
   }
 
+  /* -------Font----------- */
+  
+  h1 {
+    font-family: 'ultra';
+  }
+  
+  
+  
+  h2,
+  h3 {
+    font-family: 'ultra';
+    font-weight: 300;
+    font-size: large;
+  }
+
+p {
+    font-family: 'pt sarif';
+    font-weight: 200;
+}
   /* -------NavBar----------- */
 .logo {
     width: 130px;
@@ -72,4 +93,12 @@ li i:hover {
     /* Removes bullet points */
     list-style: none;
     padding: 0;
+   }
+
+
+   /* -----body------- */
+
+   .body {
+    height: 800px;
+    background-color: #dcd6f7;
    }
