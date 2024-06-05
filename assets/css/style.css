@@ -1,5 +1,17 @@
+/*Asterisk wildcard selector to override default styles added by the browser*/
+*,
+*::before, 
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-
+  html {
+    height: 100%;
+    margin: auto;
+    position: absolute;
+  }
 
 /* -------NavBar----------- */
 .logo {
@@ -20,14 +32,6 @@
 }
 
 
-/* -------Body----------- */
-.body-color {
-    max-width: max-content;
-    height: 100px;
-    color: #e0e0e0;
-}
-
-
 /*---------------------------------------------------Footer */
 
 footer{
@@ -42,11 +46,17 @@ footer{
     color: #e0e0e0;
     padding-right: 15px;
     font-size: larger;
+    margin-bottom: 20px;
     
 }
 
 .footer-color a:hover {
     color: #D30C7B;
+}
+
+.fixed-bottom{
+    max-height: 30%;
+    position: relative;
 }
 
 /*---------------------------------------------------Footer icons*/
@@ -56,6 +66,7 @@ footer{
     justify-content: space-evenly;
     /* Remove bullet points */
     list-style: none;
+    margin-bottom: 20px;
    }
 
   
@@ -72,18 +83,16 @@ i:hover {
 
 /*---------------------------------------------------Body*/
 body {
-    background-color: #DCD6F7;
+    min-height: 10%;
+    background-color: #f7e2d6;
+    /* min-height: 100vh; */
+    overflow: auto;
 }
 
-.display{
-    display: block;
-}
 
-.carousel-inner > .item > img {
-    width:640px;
-    height:360px;
+
+  .homepage{
+    margin-top: 125px;
   }
 
-  .content{
-    height: 2000px;
-  }
+/*---------------------------------------------------Carousel*/
