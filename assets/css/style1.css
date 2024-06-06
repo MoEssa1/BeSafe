@@ -4,7 +4,7 @@
 *,
 *::before,
 *::after {
-    max-width: 1400px;
+    max-width: 1280px;
     padding: 0;
     margin: 0;
 }
@@ -136,13 +136,15 @@ body {
     margin: 20px;
 }
 
+/* ----------------------------Accordion */
+
 .accordion-button {
     color: #08415C;
-    background-color:#a6b1e1;
+    background-color:#a6b1e1; 
 }
 
 .accordion-button:not(.collapsed) {
-    color: #08415C;
+    color: #e0e0e0;
     background-color:#D30C7B;
 }
 
