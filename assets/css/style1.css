@@ -125,6 +125,7 @@ body {
 
 .icons {
     color: #D30C7B;
+
 }
 
 /* ---------------------------------------------domestic violence */
@@ -152,4 +153,17 @@ body {
     color: #D30C7B;
     font-size: large;
 }
+
+=======
+   }
+  
+   /*---------------------------------------------------Child Protection */
+   .childp-img {
+    margin: 30px;
+    border-radius: 20px 20px 20px 20px;
+    /* width: 100%; */
+    position: relative;
+   }
+
+  
 
