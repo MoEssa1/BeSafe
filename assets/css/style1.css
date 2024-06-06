@@ -21,6 +21,7 @@ html {
 h1 {
     font-family: 'ultra';
     color: #08415C;
+    text-transform: uppercase;
 }
 
 
@@ -31,6 +32,7 @@ h3 {
     font-weight: 300;
     font-size: large;
     color: #08415C;
+    text-transform: capitalize;
 }
 
 p {
@@ -149,21 +151,24 @@ body {
     background-color:#D30C7B;
 }
 
-.pink-text {
-    color: #D30C7B;
-    font-size: large;
+.list-hide {
+    list-style-type: none;
 }
 
-=======
-   }
-  
+.pink-text {
+    color: #e0e0e0;
+    font-size: 30px;
+}
+
+
    /*---------------------------------------------------Child Protection */
    .childp-img {
     margin: 30px;
     border-radius: 20px 20px 20px 20px;
-    /* width: 100%; */
     position: relative;
    }
+
+
 
   
 
